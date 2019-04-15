@@ -19,7 +19,7 @@ You should see a new `package.json` file in your project directory.
 
 We'll have to edit the `package.json` file slightly in order to use Electron for our Node App.
 
-Using `npm init` will produce produce a `package.json` file that looks like this.
+You should see a new file that looks like this.
 
 ```
 {
@@ -46,11 +46,11 @@ Using `npm init` will produce produce a `package.json` file that looks like this
 }
 ```
 
-This file is missing our start script that will run our Electron app. For a regular Node app you would add `"start": "node .",` to start the development server.
+This file is missing a start script that can start our Electron app. For a regular Node app you would add `"start": "node .",` to start the development server.
 
 For our app however, we don't want to use Node -- we want Electron.
 
-Add the following start script to the `package.json` file in order to use Electron.
+Add the following start script to the `package.json` file.
 
 ```
 ...
