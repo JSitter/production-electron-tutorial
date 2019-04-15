@@ -1,0 +1,26 @@
+{
+  "name": "production-electron-tutorial",
+  "version": "1.0.0",
+  "description": "This is a demo of a basic Electron application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSitter/production-electron-tutorial.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Justin Sitter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSitter/production-electron-tutorial/issues"
+  },
+  "homepage": "https://github.com/JSitter/production-electron-tutorial#readme",
+  "devDependencies": {
+    "electron": "^4.1.4"
+  }
+}
